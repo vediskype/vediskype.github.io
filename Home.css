@@ -98,10 +98,6 @@
 }
 
 @media (max-width: 767px) {
-   .u-section-1 {
-    background-position: 50% 50%;
-  }
-
   .u-section-1 .u-sheet-1 {
     min-height: 871px;
   }
@@ -184,10 +180,12 @@
 }
 
 .u-section-2 .u-text-1 {
+  font-family: Roboto, sans-serif;
   margin: 0;
 }
 
 .u-section-2 .u-text-2 {
+  font-family: "Open Sans", sans-serif;
   margin: 20px 0 0;
 }
 
@@ -239,6 +237,7 @@
 
 .u-section-2 .u-text-3 {
   line-height: 1.8;
+  font-family: "Open Sans", sans-serif;
   margin: 0;
 }
 
