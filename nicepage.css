@@ -42863,60 +42863,68 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 575px) {
   .u-footer .u-sheet-1 {
-    min-height: 448px;
+    min-height: 461px;
   }
 
   .u-footer .u-text-1 {
     font-weight: 700;
-    margin-top: 35px;
-    margin-right: 27px;
-    margin-left: 0;
+    font-size: 1.25rem;
+    margin-top: 56px;
+    margin-right: 0;
+    margin-left: 27px;
   }
 
   .u-footer .u-icon-1 {
-    margin-top: 116px;
+    height: 32px;
+    margin-top: 142px;
     margin-right: auto;
-    margin-left: -16px;
+    margin-left: 15px;
   }
 
   .u-footer .u-text-2 {
-    margin-top: -31px;
-    margin-right: 44px;
-    margin-left: 25px;
+    font-size: 1.25rem;
+    margin-top: -24px;
+    margin-right: 11px;
+    margin-left: 58px;
   }
 
   .u-footer .u-icon-2 {
-    margin-top: 85px;
+    height: 32px;
+    margin-top: 64px;
     margin-right: auto;
-    margin-left: -16px;
+    margin-left: 14px;
   }
 
   .u-footer .u-text-3 {
+    font-size: 1.25rem;
     margin-top: -28px;
-    margin-right: -18px;
-    margin-left: 25px;
+    margin-right: -50px;
+    margin-left: 57px;
   }
 
   .u-footer .u-text-4 {
     font-size: 1.25rem;
-    margin-top: -243px;
-    margin-right: -16px;
-    margin-left: 0;
+    margin-top: -252px;
+    margin-left: 24px;
+    margin-right: 24px;
   }
 
   .u-footer .u-icon-3 {
-    margin-top: 90px;
+    height: 33px;
+    margin-top: 80px;
     margin-right: auto;
-    margin-left: -16px;
+    margin-left: 14px;
   }
 
   .u-footer .u-text-5 {
-    margin-right: 13px;
-    margin-left: 27px;
+    font-size: 1.25rem;
+    margin-top: -27px;
+    margin-right: -17px;
+    margin-left: 57px;
   }
 
   .u-footer .u-line-1 {
-    margin-top: -267px;
+    margin-top: -282px;
     width: auto;
     margin-right: initial;
     margin-left: initial;
