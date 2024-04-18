@@ -1,17 +1,17 @@
  .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("images/image_5.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('images/bg1.webp');
   background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 600px;
+  min-height: 763px;
 }
 
 .u-section-1 .u-form-1 {
   height: 534px;
   background-image: none;
   box-shadow: 2px 2px 8px 0px rgba(128,128,128,1);
-  margin: 134px 0 0 630px;
+  margin: 134px 0 0 723px;
 }
 
 .u-section-1 .u-text-1 {
@@ -21,7 +21,7 @@
 }
 
 .u-section-1 .u-input-1 {
-  --radius: 10px;
+  --radius: 16px;
 }
 
 .u-section-1 .u-form-group-3 {
@@ -29,18 +29,18 @@
 }
 
 .u-section-1 .u-input-2 {
-  --radius: 10px;
+  --radius: 16px;
 }
 
 .u-section-1 .u-input-3 {
-  --radius: 10px;
+  --radius: 16px;
 }
 
 .u-section-1 .u-btn-1 {
   background-image: none;
   text-transform: uppercase;
-  width: 98%;
   font-weight: 700;
+  width: 98%;
   padding: 10px 0;
 }
 
@@ -52,12 +52,12 @@
 
 .u-section-1 .u-text-3 {
   font-weight: 400;
-  margin: 16px 570px 357px 0;
+  margin: 16px 570px 60px 0;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 788px;
+    min-height: 629px;
   }
 
   .u-section-1 .u-form-1 {
@@ -73,13 +73,12 @@
   .u-section-1 .u-text-3 {
     width: auto;
     margin-right: 519px;
-    margin-bottom: 60px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 677px;
+    min-height: 482px;
   }
 
   .u-section-1 .u-form-1 {
@@ -99,7 +98,7 @@
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 871px;
+    min-height: 362px;
   }
 
   .u-section-1 .u-form-1 {
@@ -116,18 +115,21 @@
 
   .u-section-1 .u-text-2 {
     font-size: 3rem;
-    margin: -725px 44px 60px 0;
+    margin-top: -725px;
+    margin-right: 44px;
+    margin-left: 0;
   }
 
   .u-section-1 .u-text-3 {
     margin-right: 15px;
+    margin-bottom: 60px;
     margin-left: -30px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 829px;
+    min-height: 923px;
   }
 
   .u-section-1 .u-form-1 {
@@ -141,19 +143,20 @@
     font-size: 2.25rem;
     margin-top: -754px;
     margin-right: 0;
-    margin-bottom: 0;
   }
 
   .u-section-1 .u-text-3 {
-    margin: 27px -15px 60px 0;
+    margin-top: 27px;
+    margin-right: -15px;
+    margin-left: 0;
   }
 }.u-section-2 .u-sheet-1 {
   min-height: 987px;
 }
 
 .u-section-2 .u-layout-wrap-1 {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 29px;
+  margin-bottom: 31px;
 }
 
 .u-section-2 .u-image-1 {
@@ -409,12 +412,12 @@
 
 @media (max-width: 575px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 1331px;
+    min-height: 1332px;
   }
 
   .u-section-2 .u-layout-wrap-1 {
-    margin-top: 97px;
-    margin-bottom: -36px;
+    margin-top: 94px;
+    margin-bottom: -33px;
   }
 
   .u-section-2 .u-image-1 {
@@ -636,17 +639,17 @@
   padding: 40px 60px 30px;
 }
 
-.u-section-4 .u-text-2 {
-  font-family: "Noto Sans";
-  margin: 0;
-}
-
 .u-section-4 .u-image-1 {
   width: 72px;
   height: 72px;
-  background-image: url("images/2.jpg");
+  background-image: url("images/indian_woman.jpeg");
   background-position: 50% 50%;
   margin: 13px auto 0 0;
+}
+
+.u-section-4 .u-text-2 {
+  font-family: "Noto Sans";
+  margin: 0;
 }
 
 .u-section-4 .u-text-3 {
@@ -669,17 +672,17 @@
   padding: 40px 60px 30px;
 }
 
-.u-section-4 .u-text-5 {
-  font-family: "Noto Sans";
-  margin: 0;
-}
-
 .u-section-4 .u-image-2 {
   width: 72px;
   height: 72px;
-  background-image: url("images/4.jpg");
+  background-image: url("images/indian_man1.webp");
   background-position: 50% 50%;
   margin: 13px auto 0 0;
+}
+
+.u-section-4 .u-text-5 {
+  font-family: "Noto Sans";
+  margin: 0;
 }
 
 .u-section-4 .u-text-6 {
@@ -702,17 +705,17 @@
   padding: 40px 60px 30px;
 }
 
-.u-section-4 .u-text-8 {
-  font-family: "Noto Sans";
-  margin: 0;
-}
-
 .u-section-4 .u-image-3 {
   width: 72px;
   height: 72px;
-  background-image: url("images/3.jpg");
+  background-image: url("images/indian_woman.jpeg");
   background-position: 50% 50%;
   margin: 13px auto 0 0;
+}
+
+.u-section-4 .u-text-8 {
+  font-family: "Noto Sans";
+  margin: 0;
 }
 
 .u-section-4 .u-text-9 {
@@ -735,17 +738,17 @@
   padding: 40px 60px 30px;
 }
 
-.u-section-4 .u-text-11 {
-  font-family: "Noto Sans";
-  margin: 0;
-}
-
 .u-section-4 .u-image-4 {
   width: 72px;
   height: 72px;
   background-image: url("images/11.jpg");
   background-position: 50% 50%;
   margin: 13px auto 0 0;
+}
+
+.u-section-4 .u-text-11 {
+  font-family: "Noto Sans";
+  margin: 0;
 }
 
 .u-section-4 .u-text-12 {
@@ -945,7 +948,7 @@
 
 @media (max-width: 575px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 1764px;
+    min-height: 1997px;
   }
 
   .u-section-4 .u-text-1 {
@@ -956,51 +959,84 @@
   }
 
   .u-section-4 .u-list-1 {
-    margin-top: 63px;
-    margin-bottom: 58px;
+    margin-top: 58px;
     width: auto;
     margin-right: initial;
     margin-left: initial;
   }
 
   .u-section-4 .u-repeater-1 {
-    grid-auto-columns: calc(100% - 0px);
+    grid-auto-columns: calc(100% + 0px);
     grid-template-columns: 100%;
+    min-height: 1742px;
+  }
+
+  .u-section-4 .u-image-1 {
+    width: 130px;
+    height: 130px;
+    margin-top: 0;
+    margin-left: auto;
   }
 
   .u-section-4 .u-text-2 {
     width: auto;
+    margin-top: 15px;
   }
 
-  .u-section-4 .u-image-1 {
-    margin-top: 14px;
+  .u-section-4 .u-text-3 {
+    margin-top: 19px;
+  }
+
+  .u-section-4 .u-image-2 {
+    width: 130px;
+    height: 130px;
+    background-position: 29.12% 50%;
+    margin-top: 0;
+    margin-left: auto;
   }
 
   .u-section-4 .u-text-5 {
     width: auto;
+    margin-top: 15px;
     margin-right: 0;
   }
 
-  .u-section-4 .u-image-2 {
-    margin-top: 14px;
+  .u-section-4 .u-text-6 {
+    margin-top: 19px;
+  }
+
+  .u-section-4 .u-image-3 {
+    width: 130px;
+    height: 130px;
+    margin-top: 0;
+    margin-left: auto;
   }
 
   .u-section-4 .u-text-8 {
     width: auto;
+    margin-top: 15px;
     margin-right: 0;
   }
 
-  .u-section-4 .u-image-3 {
-    margin-top: 14px;
+  .u-section-4 .u-text-9 {
+    margin-top: 19px;
+  }
+
+  .u-section-4 .u-image-4 {
+    width: 130px;
+    height: 130px;
+    margin-top: 0;
+    margin-left: auto;
   }
 
   .u-section-4 .u-text-11 {
     width: auto;
+    margin-top: 15px;
     margin-right: 0;
   }
 
-  .u-section-4 .u-image-4 {
-    margin-top: 14px;
+  .u-section-4 .u-text-12 {
+    margin-top: 19px;
   }
 } .u-section-5 {
   min-height: 614px;
@@ -1271,19 +1307,22 @@
 }
 
 @media (max-width: 575px) {
+   .u-section-5 {
+    min-height: auto;
+  }
+
   .u-section-5 .u-sheet-1 {
     min-height: 1696px;
   }
 
   .u-section-5 .u-text-1 {
     font-size: 1.875rem;
-    margin-top: 31px;
-    margin-right: 80px;
-    margin-left: 0;
+    width: 200px;
+    margin-top: 37px;
   }
 
   .u-section-5 .u-text-2 {
-    margin-top: 26px;
+    margin-top: 20px;
     margin-right: 0;
   }
 
