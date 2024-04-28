@@ -21539,7 +21539,7 @@ a.pswp__share--download:hover {
 @keyframes customAnimationIn {
   from {
     transform-origin: center center;
-    transform: translate3d(var(--animation-custom_in-translate_x), var(--animation-custom_in-translate_y), 0) scale3d(var(--animation-custom_in-scale), var(--animation-custom_in-scale), var(--animation-custom_in-scale)) rotate3d(0, 0, 1, var(--animation-custom_in-rotate));
+    transform: translate3d(var(--animation-custom_in-translate_x), var(--animation-custom_in-translate_y), 0) scale3d(var(--animation-custom_in-scale), var(--animation-custom_in-scale), var(--animation-custom_in-scale)) rotate3d(0, 0, 1, calc(-1 * var(--animation-custom_in-rotate)));
     opacity: var(--animation-custom_in-opacity);
   }
   to {
@@ -21556,7 +21556,7 @@ a.pswp__share--download:hover {
   }
   to {
     transform-origin: center center;
-    transform: translate3d(var(--animation-custom_in-translate_x), var(--animation-custom_in-translate_y), 0) scale3d(var(--animation-custom_in-scale), var(--animation-custom_in-scale), var(--animation-custom_in-scale)) rotate3d(0, 0, 1, var(--animation-custom_in-rotate));
+    transform: translate3d(var(--animation-custom_in-translate_x), var(--animation-custom_in-translate_y), 0) scale3d(var(--animation-custom_in-scale), var(--animation-custom_in-scale), var(--animation-custom_in-scale)) rotate3d(0, 0, 1, calc(-1 * var(--animation-custom_in-rotate)));
     opacity: var(--animation-custom_in-opacity);
   }
 }
@@ -42757,9 +42757,9 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-image-1 {
-  width: 62px;
-  height: 54px;
-  margin: 27px auto 0 0;
+  width: 65px;
+  height: 58px;
+  margin: 25px auto 0 0;
 }
 
 .u-header .u-logo-image-1 {
@@ -42768,13 +42768,16 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-text-1 {
-  font-family: Roboto, sans-serif;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  font-family: "Playfair Display", serif;
   font-weight: 400;
-  margin: -48px auto 0 62px;
+  font-size: 2.25rem;
+  margin: -53px auto 0 65px;
 }
 
 .u-header .u-menu-1 {
-  margin: -43px 0 39px auto;
+  margin: -40px 0 4px auto;
 }
 
 .u-header .u-nav-1 {
@@ -42788,33 +42791,45 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 1199px) {
   .u-header .u-image-1 {
-    width: 62px;
-    height: 55px;
+    margin-top: 20px;
   }
 
   .u-header .u-text-1 {
-    margin-top: -49px;
-    margin-left: 62px;
+    margin-top: -44px;
   }
 
   .u-header .u-menu-1 {
     width: auto;
-    margin-top: -43px;
+    margin-top: -32px;
   }
 }
 
+@media (max-width: 767px) {
+  .u-header .u-image-1 {
+    margin-top: 13px;
+  }
 
+  .u-header .u-text-1 {
+    font-size: 1.875rem;
+    margin-top: -37px;
+  }
+}
 @media (max-width: 575px) {
+  .u-header .u-image-1 {
+    margin-top: 27px;
+  }
+
   .u-header .u-text-1 {
     font-family: "Noto Sans";
     font-weight: 700;
     width: auto;
+    font-size: 1.5rem;
     margin-top: -42px;
   }
 
   .u-header .u-menu-1 {
-    margin-top: -34px;
-    margin-bottom: 26px;
+    margin-top: -35px;
+    margin-bottom: 38px;
   }
 }
 .u-footer .u-sheet-1 {
