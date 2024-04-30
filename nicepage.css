@@ -42803,7 +42803,11 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-top: -32px;
   }
 }
-
+@media (max-width: 991px) {
+  .u-header .u-menu-1 {
+    margin-top: -32px;
+  }
+}
 @media (max-width: 767px) {
   .u-header .u-image-1 {
     margin-top: 13px;
