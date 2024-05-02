@@ -1,6 +1,5 @@
  .u-section-1 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('images/bg1.webp');
-  background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
@@ -56,6 +55,10 @@
 }
 
 @media (max-width: 1199px) {
+   .u-section-1 {
+    background-position: 50% 50%;
+  }
+
   .u-section-1 .u-sheet-1 {
     min-height: 629px;
   }
@@ -85,16 +88,18 @@
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 482px;
+    min-height: 680px;
   }
 
   .u-section-1 .u-form-1 {
+    height: 582px;
     margin-top: 51px;
-    margin-left: 309px;
+    margin-left: 400px;
   }
 
   .u-section-1 .u-text-2 {
-    margin-right: 441px;
+    margin-top: -582px;
+    margin-right: 432px;
     margin-left: 17px;
   }
 
@@ -138,7 +143,7 @@
   }
 
   .u-section-1 .u-form-1 {
-    margin-top: 281px;
+    margin-top: 324px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
@@ -146,7 +151,7 @@
 
   .u-section-1 .u-text-2 {
     font-size: 2.25rem;
-    margin-top: -754px;
+    margin-top: -797px;
     margin-right: 0;
     margin-bottom: 0;
   }
@@ -161,8 +166,8 @@
 }
 
 .u-section-2 .u-layout-wrap-1 {
-  margin-top: 60px;
-  margin-bottom: 60px;
+  margin-top: 62px;
+  margin-bottom: 62px;
 }
 
 .u-section-2 .u-image-1 {
@@ -402,12 +407,12 @@
 
 @media (max-width: 575px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 1362px;
+    min-height: 1296px;
   }
 
   .u-section-2 .u-layout-wrap-1 {
     margin-top: 34px;
-    margin-bottom: 33px;
+    margin-bottom: 60px;
   }
 
   .u-section-2 .u-image-1 {
@@ -1216,7 +1221,6 @@
   transform: translateX(0px) translateY(-5px) !important;
 } .u-section-6 {
   background-image: url("images/girl-student-standing-with-colorful-folders-min.jpg");
-  background-position: 50% 50%;
 }
 
 .u-section-6 .u-sheet-1 {
